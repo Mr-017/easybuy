@@ -21,7 +21,8 @@
 	<div class="login">
     	<div class="log_img"><img src="${ctx}/statics/images/l_img.png" width="611" height="425" /></div>
 		<div class="log_c">
-        	<form>
+        	<form action="">
+        	<%--<form action="userLogin" method="post">--%>
             <table border="0" style="width:370px; font-size:14px; margin-top:30px;" cellspacing="0" cellpadding="0">
               <tr height="50" valign="top">
               	<td width="55">&nbsp;</td>
@@ -41,6 +42,7 @@
               <tr height="60">
               	<td>&nbsp;</td>
                 <td><input type="button" value="登录" class="log_btn" onclick="login();" /></td>
+                <%--<td><input type="submit" value="登录" class="log_btn" /></td>--%>
               </tr>
             </table>
             </form>
@@ -60,4 +62,5 @@
 <!--[if IE 6]>
 <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
 <![endif]-->
+
 </html>

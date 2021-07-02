@@ -18,7 +18,7 @@
         <location>/500.jsp</location>
     </error-page>
 
-    <filter>
+ <!--   <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>com.hisoft.easybuy.web.CharacterEncodingFilter</filter-class>
         <init-param>
@@ -29,5 +29,5 @@
     <filter-mapping>
         <filter-name>CharacterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
-    </filter-mapping>
+    </filter-mapping>-->
 </web-app>

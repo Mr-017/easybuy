@@ -14,6 +14,15 @@ public class User implements Serializable {
     private String mobile;//电话
     private Integer type;//用户类别
 
+    public User(){
+
+    }
+    public User(int id, String loginName, String password) {
+        this.id = id;
+        this.loginName = loginName;
+        this.password = password;
+    }
+
     public Integer getId() {
         return id;
     }
@@ -86,4 +95,18 @@ public class User implements Serializable {
         this.type = type;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", loginName='" + loginName + '\'' +
+                ", userName='" + userName + '\'' +
+                ", password='" + password + '\'' +
+                ", sex=" + sex +
+                ", identityCode='" + identityCode + '\'' +
+                ", email='" + email + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", type=" + type +
+                '}';
+    }
 }
