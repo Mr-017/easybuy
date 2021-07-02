@@ -1,7 +1,9 @@
 package com.hisoft.easybuy.javabeen.util;
 
-import cn.easybuy.entity.Product;
-import cn.easybuy.entity.ProductCategory;
+
+
+import com.hisoft.easybuy.javabeen.entity.Product;
+import com.hisoft.easybuy.javabeen.entity.ProductCategory;
 
 import java.io.Serializable;
 import java.util.List;

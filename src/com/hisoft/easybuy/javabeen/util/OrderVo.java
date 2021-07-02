@@ -1,10 +1,12 @@
 package com.hisoft.easybuy.javabeen.util;
 
-import cn.easybuy.entity.Order;
-import cn.easybuy.entity.OrderDetail;
+
+import com.hisoft.easybuy.javabeen.entity.Order;
+import com.hisoft.easybuy.javabeen.entity.OrderDetail;
 
 import java.io.Serializable;
 import java.util.List;
+
 
 /**
  * Created by wlg on 2018/4/23.
