@@ -35,7 +35,6 @@ public class LoginServlet extends HttpServlet {
                 request.setAttribute("error", "密码不能为空");
                 request.getRequestDispatcher("login.jsp").forward(request, response);
             } else {
-                //
                 //        NewsUserDao userDao = new NewsUserDaoImpl();
                 UserService userService = new UserServiceImpl();
                 User user = userService.login(uname, upwd);
