@@ -14,6 +14,9 @@ public class User implements Serializable {
     private String mobile;//电话
     private Integer type;//用户类别
 
+    public int status = 1;
+    //public String message = "登录失败";
+
     public User(){
 
     }

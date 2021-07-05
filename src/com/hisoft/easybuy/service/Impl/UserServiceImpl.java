@@ -1,7 +1,7 @@
 package com.hisoft.easybuy.service.Impl;
 
 import com.hisoft.easybuy.dao.UserDao;
-import com.hisoft.easybuy.dao.UserDaoImpl;
+import com.hisoft.easybuy.dao.Impl.UserDaoImpl;
 import com.hisoft.easybuy.javabeen.entity.User;
 import com.hisoft.easybuy.service.UserService;
 import com.hisoft.easybuy.utils.JdbcUtil;

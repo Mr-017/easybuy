@@ -75,7 +75,7 @@ function register() {
         },
         success: function (jsonStr) {
             var result = eval("(" + jsonStr + ")");
-            if (result.status == 1) {
+            if (result.status == 200) {
                 showMessage(result.message);
                 window.location.href = contextPath + "/Login?action=toLogin";
             } else {

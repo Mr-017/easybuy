@@ -1,5 +1,6 @@
-package com.hisoft.easybuy.dao;
+package com.hisoft.easybuy.dao.Impl;
 
+import com.hisoft.easybuy.dao.UserDao;
 import com.hisoft.easybuy.javabeen.entity.User;
 import com.hisoft.easybuy.utils.JdbcUtil;
 

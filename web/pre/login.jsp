@@ -34,6 +34,7 @@
               <tr height="70">
                 <td>用户名</td>
                 <td><input type="text" name="loginName" id="loginName" value="" class="l_user" /></td>
+                <%--<td><input type="text" name="loginName" id="loginName" value="${requestScope.error1}" class="l_user" /></td>--%>
               </tr>
               <tr height="70">
                 <td>密&nbsp; &nbsp; 码</td>
@@ -41,8 +42,8 @@
               </tr>
               <tr height="60">
               	<td>&nbsp;</td>
-                <td><input type="button" value="登录" class="log_btn" onclick="login();" /></td>
                 <%--<td><input type="submit" value="登录" class="log_btn" /></td>--%>
+                <td><input type="button" value="登录" class="log_btn" onclick="login()"/></td>
               </tr>
             </table>
             </form>

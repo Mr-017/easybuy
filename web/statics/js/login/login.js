@@ -12,9 +12,11 @@ function login(){
         success:function(jsonStr){
             var result=eval("("+jsonStr+")");
             if(result.status==1){
+                window.alert("登录成功！");
                 window.location.href=contextPath+"/Home?action=index";
             }else{
-                showMessage(result.message)
+                // showMessage(result.message)
+                showMessage("登录失败！");
             }
         }
     })
